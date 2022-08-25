@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact'
 import Services from './components/Services/Services'
 import Portfolio from './components/Portfolio/Portfolio'
 import Graphicsdesign from './components/Graphicsdesign/Graphicsdesign'
+import Footer from './components/Footer/Footer'
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
     <Portfolio/>
     <Graphicsdesign/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

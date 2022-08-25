@@ -5,9 +5,12 @@ import Port2 from '../../assets/Port2.jpg'
 import Port3 from '../../assets/Port3.jpg'
 import Port4 from '../../assets/Port4.jpg'
 import Port5 from '../../assets/Port5.jpg'
-import {Pagination, Navigation, } from 'swiper'
+import {Pagination, Navigation, A11y } from 'swiper'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+
 const Graphicsdesign = () => {
   const images =[
     {
@@ -36,9 +39,10 @@ const Graphicsdesign = () => {
         <h5>what I have Created</h5>
         <h2>Graphics Design Samples</h2>
         <Swiper className="container design__container"
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, A11y]}
         spaceBetween={40}
         slidesPerView={1}
+        navigation
         pagination={{clickable:true}}>
            {
             images.map(({imagename, description},index)=>{
