@@ -1,10 +1,27 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
+import emailjs from 'emailjs-com'
+
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_bm989ot', 'template_8kxdwqo', form.current, 'TpWI8U4-qo7w8MELZ')
+      .then((result) => {
+        alert('Message sent');
+        result(null)
+          
+      }, (error) => {
+          alert('Message not sent: Please Try Again Later')
+          console.log(error);
+      });
+    }
   return (
     <section id='contact'>
       <h5>Get in Contact</h5>
@@ -29,7 +46,7 @@ function Contact() {
               <a href='https://api.whatsapp.com/send?phone+254741061145' target="_blank">Send a Message</a>
           </article>
         </div>
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Name'/>
           <input type="email" name='email' placeholder='Your Email'/>
           <textarea name="message" rows="7" placeholder='Your Message'></textarea>
