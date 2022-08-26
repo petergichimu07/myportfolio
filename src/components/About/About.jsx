@@ -36,11 +36,10 @@ function About() {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur
-             adipisicing elit. Debitis rem, sunt veniam 
-             maiores totam ab perferendis voluptatum a 
-             quasi id harum inventore maxime cum rerum 
-             laboriosam omnis facere labore hic.
+            Born in the remote Laikipia County in Kenya, I have grown to appreciate
+            the role of developers in creating inspiring and timeless designs that 
+            leave a smile in every visitor. I believe in the power of imagination
+            that enables the creation of unique designs that outlive the developers. 
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>

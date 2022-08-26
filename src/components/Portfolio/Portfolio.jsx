@@ -9,36 +9,49 @@ const data =[
     {
     id: 1,
     image: Port1,
-    title: 'Adobe Photoshop',
-    github: 'github.com',
+    title: 'Online Medical Consultation System',
+    language: 'reactJS',
+    github: 'https://github.com/petergichimu07/patadoc-online-consultation-system',
     demo:'github.com'
 },
 {
     id: 2,
     image: Port2, 
-    title: 'Another One',
-    github: 'github.com',
+    title: 'Simple Ecommerce Website',
+    language:'HTML, CSS',
+    github: 'https://github.com/petergichimu07/E-commerce-website.github.io',
     demo:'github.com'
 },
 {
     id: 3,
     image: Port3,
-    title: 'Third Image',
-    github: 'github.com',
+    title: 'Online Booking System',
+    language:'Java',
+    github: 'https://github.com/petergichimu07/java-hotel-booking-project/tree/master/POS',
     demo:'github.com'
 },
 {
     id: 4,
     image: Port4, 
-    title: 'Image Four',
-    github: 'github.com',
+    title: 'Social Networking Manipulation',
+    language: 'R',
+    github: 'https://github.com/petergichimu07/R-language-Social-networks',
     demo:'github.com'
 },
 {
     id: 5,
     image: Port5, 
-    title: 'Image5',
-    github: 'github.com',
+    title: 'Simple GUI Application',
+    language: 'Python',
+    github: 'https://github.com/petergichimu07/Python-GUI-apps',
+    demo:'github.com'
+},
+{
+    id: 6,
+    image: Port5, 
+    title: 'Simple Data Manipulation',
+    language: 'Python',
+    github: 'https://github.com/petergichimu07/Python-GUI-apps',
     demo:'github.com'
 }
 ]
@@ -50,13 +63,14 @@ const Portfolio = () => {
         <h2>Portfolio</h2>
         <div className="container portfolio__container">
             {
-                data.map(({id,image,title,github,demo})=>{
+                data.map(({id,image,title,github,language,demo})=>{
                     return (
                         <article key={id} className='portfolio__item'>
                 <div >
                     <img src={image} className="portfolio__item-image"/>
                 </div>
                 <h3>{title}</h3>
+                <h5>LANGUAGE: {language}</h5>
                 <div className="portfolio__item-cta">
                 <a href={github} className='btn' target='_blank'>Github</a>
                 <a href={demo} className='btn btn-primary'target='_blank'>Live Demo</a>

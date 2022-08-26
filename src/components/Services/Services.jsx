@@ -13,19 +13,19 @@ function Services() {
           </div>
           <ul className='service__list'>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Unique Designs that break the monotonous designs but maintain consistency.</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Easy Navigation to allow users to easily maneuver.</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Proper arrangement of items to allow sequential flow of information.</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Fault torelance to prevent users from errors.</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Enable users to interact with familiar operations</p>
             </li>
           </ul>
         </article>
@@ -35,20 +35,20 @@ function Services() {
           </div>
           <ul className='service__list'>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Intuitive and engaging content for your website and blog</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>SEO-Optimization to enable high ranking on search reasons.</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Well-researched information to keep your users engaged</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>100% Unique and original content free of plagiarism</p>
             </li>
-            <li><BiCheck className='service__list-icon'/>
+            {/* <li><BiCheck className='service__list-icon'/>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         <article className='services'>
@@ -57,19 +57,19 @@ function Services() {
           </div>
           <ul className='service__list'>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Highly Optimized Web Content</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Latest web development technology</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Well-built functionalities for end-users</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Easy-to use features that keep users engaged</p>
             </li>
             <li><BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Interactive Websites that deliver their purpose</p>
             </li>
           </ul>
         </article>
