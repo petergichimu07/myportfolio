@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-deploy/myportfolio/static/css/main.955ed221.css",
-    "main.js": "/react-deploy/myportfolio/static/js/main.dc93f9c2.js",
-    "static/media/Peterportrait.jpg": "/react-deploy/myportfolio/static/media/Peterportrait.8d2506b3b106481789e2.jpg",
-    "static/media/Port3.jpg": "/react-deploy/myportfolio/static/media/Port3.099fbee4fa346776a7df.jpg",
-    "static/media/Port2.jpg": "/react-deploy/myportfolio/static/media/Port2.8ac983d7033976c5067b.jpg",
-    "static/media/Port1.jpg": "/react-deploy/myportfolio/static/media/Port1.c40bc3d67c37fc4533bb.jpg",
-    "static/media/Port5.jpg": "/react-deploy/myportfolio/static/media/Port5.c3dd60c0a5ffd88a3082.jpg",
-    "static/media/Peterpic1.png": "/react-deploy/myportfolio/static/media/Peterpic1.36dc7faaab3475f1d0f7.png",
-    "static/media/Port4.jpg": "/react-deploy/myportfolio/static/media/Port4.93f8cdf1d9fd5b911a97.jpg",
-    "static/media/PeterCV.docx": "/react-deploy/myportfolio/static/media/PeterCV.3a37f7e5026c6ae3121f.docx",
-    "index.html": "/react-deploy/myportfolio/index.html",
-    "main.955ed221.css.map": "/react-deploy/myportfolio/static/css/main.955ed221.css.map",
-    "main.dc93f9c2.js.map": "/react-deploy/myportfolio/static/js/main.dc93f9c2.js.map"
+    "main.css": "/myportfolio/static/css/main.955ed221.css",
+    "main.js": "/myportfolio/static/js/main.f22bb054.js",
+    "static/media/Peterportrait.jpg": "/myportfolio/static/media/Peterportrait.8d2506b3b106481789e2.jpg",
+    "static/media/Port3.jpg": "/myportfolio/static/media/Port3.099fbee4fa346776a7df.jpg",
+    "static/media/Port2.jpg": "/myportfolio/static/media/Port2.8ac983d7033976c5067b.jpg",
+    "static/media/Port1.jpg": "/myportfolio/static/media/Port1.c40bc3d67c37fc4533bb.jpg",
+    "static/media/Port5.jpg": "/myportfolio/static/media/Port5.c3dd60c0a5ffd88a3082.jpg",
+    "static/media/Peterpic1.png": "/myportfolio/static/media/Peterpic1.36dc7faaab3475f1d0f7.png",
+    "static/media/Port4.jpg": "/myportfolio/static/media/Port4.93f8cdf1d9fd5b911a97.jpg",
+    "static/media/PeterCV.docx": "/myportfolio/static/media/PeterCV.3a37f7e5026c6ae3121f.docx",
+    "index.html": "/myportfolio/index.html",
+    "main.955ed221.css.map": "/myportfolio/static/css/main.955ed221.css.map",
+    "main.f22bb054.js.map": "/myportfolio/static/js/main.f22bb054.js.map"
   },
   "entrypoints": [
     "static/css/main.955ed221.css",
-    "static/js/main.dc93f9c2.js"
+    "static/js/main.f22bb054.js"
   ]
 }
