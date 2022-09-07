@@ -15,23 +15,23 @@ const Graphicsdesign = () => {
   const images =[
     {
         imagename: Port1,
-        description: 'This is my creation'
+        description: 'Business cards sample'
     },
     {
         imagename: Port2,
-        description: 'This is my creation'
+        description: 'Posters and Flyers sample'
     },
     {
         imagename: Port3,
-        description: 'This is my creation'
+        description: 'Social Media Posts sample'
     },
     {
         imagename: Port4,
-        description: 'This is my creation'
+        description: 'Restaurant sample one'
     },
     {
         imagename: Port5,
-        description: 'This is my creation'
+        description: 'Restaurant sample two'
     },
   ]
     return (
